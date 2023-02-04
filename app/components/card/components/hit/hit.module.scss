@@ -1,0 +1,15 @@
+.container {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  background: #d9362b;
+  transform: skew(-35deg);
+  right: 4rem;
+  top: 3rem;
+  p {
+    padding: 0 1rem;
+    transform: skew(35deg);
+    color: white;
+    font-size: 1.2rem;
+  }
+}

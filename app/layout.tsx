@@ -1,5 +1,5 @@
-import './globals.css'
-
+import "./scss/base/base.scss"
+import "./scss/base/typography.scss"
 export default function RootLayout({
   children,
 }: {

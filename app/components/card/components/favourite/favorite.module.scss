@@ -1,0 +1,41 @@
+.btnContainer {
+  text-align: end;
+  height: 100%;
+  overflow: hidden;
+  button {
+    border: 1px solid #f5f5f7a9;
+    border-radius: 50%;
+    background-color: white;
+    height: 4rem;
+    width: 4rem;
+    padding: 0.8rem;
+    position: relative;
+    transition: all 0.4s;
+    cursor: pointer;
+    img {
+      position: absolute;
+      bottom: 50%;
+      transform: translate(0, 56%);
+      filter: invert(70%) sepia(9%) saturate(17%) hue-rotate(341deg)
+        brightness(87%) contrast(83%);
+      display: block;
+      width: 2.3rem;
+      height: 2.3rem;
+      background-blend-mode: hard-light;
+    }
+    &:hover {
+      border: 1px solid #ff0000;
+      img {
+        filter: invert(20%) sepia(99%) saturate(7406%) hue-rotate(359deg)
+          brightness(108%) contrast(109%);
+      }
+    }
+  }
+  button.added {
+    border: 1px solid #ff0000;
+    img {
+      filter: invert(20%) sepia(99%) saturate(7406%) hue-rotate(359deg)
+        brightness(108%) contrast(109%);
+    }
+  }
+}

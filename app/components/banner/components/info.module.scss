@@ -1,0 +1,21 @@
+.link {
+  padding: 1rem;
+  display: inline-block;
+  p > span {
+    background-color: #ffdc38;
+  }
+  .smallLink {
+    font-size: 1.4rem;
+    opacity: 0.7;
+  }
+  span {
+    color: black;
+    transform: skew(-40deg, 0deg);
+    display: inline-block;
+    * {
+      padding: 0.1rem 0.7rem;
+      margin: 0 0.1rem;
+      transform: skew(40deg, 0deg);
+    }
+  }
+}

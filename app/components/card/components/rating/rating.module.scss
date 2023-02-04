@@ -1,0 +1,18 @@
+.rating {
+  flex-grow: 1;
+  text-align: right;
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .hollowStar {
+    filter: invert(100%) sepia(3%) saturate(1256%) hue-rotate(180deg)
+      brightness(95%) contrast(94%);
+  }
+  .filledStar {
+    filter: invert(58%) sepia(59%) saturate(1548%) hue-rotate(319deg)
+      brightness(96%) contrast(98%);
+  }
+}
+
+//filter: invert(58%) sepia(59%) saturate(1548%) hue-rotate(319deg) brightness(96%) contrast(98%);

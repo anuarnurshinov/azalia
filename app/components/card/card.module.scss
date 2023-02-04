@@ -1,0 +1,55 @@
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+  flex-direction: column;
+  .picture {
+    margin: 0 auto;
+    margin-bottom: 0.7rem;
+    overflow: hidden;
+    position: relative;
+    width: 23rem;
+    height: 23rem;
+    img {
+      object-fit: contain;
+    }
+  }
+  .categoryAndRating {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    p,
+    a {
+      color: #999999;
+      font-size: 1.2rem;
+    }
+  }
+  .title {
+    flex-grow: 1;
+    p {
+      font-weight: 400;
+      font-size: 1.4rem;
+      color: #2e2e33;
+    }
+  }
+  .price {
+    p {
+      font-size: 2.2rem;
+      font-weight: 500;
+      span {
+        font-size: 1.5rem;
+        color: grey;
+      }
+    }
+  }
+  .buttons {
+    height: fit-content;
+    display: flex;
+    & > div {
+      width: 50%;
+    }
+  }
+}

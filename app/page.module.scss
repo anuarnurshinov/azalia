@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+}
+
+.headerAndBanner {
+  padding: 3rem;
+  width: 38.4rem;
+  height: 49rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  & > img {
+    width: 5rem;
+    height: min-content;
+  }
+}
+
+.cardContainer {
+  width: 38.4rem;
+  height: 49rem;
+}
